@@ -55,7 +55,7 @@ az sql server firewall-rule create \
 
 DATA_LAKE_WORKFLOW_DB='lauravdatalakeworkflow'
 ARM_LOCATION_DB='arm/databricks.json'
-ARM_PROPS_LOCATION_DB='../conf/gdatabricks_prop.json'
+ARM_PROPS_LOCATION_DB='../conf/databricks_prop.json'
 # Create Azure Databricks 
 az group deployment create \
  --name $DATA_LAKE_WORKFLOW_DB \
